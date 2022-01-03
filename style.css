@@ -92,18 +92,42 @@ body {
 
 @media screen and (max-width: 700px) {
     .parallax-1 {
+        height: 100vh;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-image: url('./images/img5.jpg');
     }
-
+    
     .parallax-2 {
+        height: 100vh;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-image: url('./images/img6.jpg');
     }
-
+    
     .parallax-3 {
+        height: 100vh;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-image: url('./images/img7.jpg');
     }
-
+    
     .parallax-4 {
+        height: 100vh;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-image: url('./images/img8.jpg');
     }
 
