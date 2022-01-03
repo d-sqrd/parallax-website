@@ -1,0 +1,128 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: black; */
+}
+
+.parallax-1 {
+    height: 100vh;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/img1.jpg');
+}
+
+.parallax-2 {
+    height: 100vh;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/img2.jpg');
+}
+
+.parallax-3 {
+    height: 100vh;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/img3.jpg');
+}
+
+.parallax-4 {
+    height: 100vh;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/img4.jpg');
+}
+
+.text-box-1 {
+    text-align: center;
+    background: white;
+    margin: 40px auto;
+    width: 80%;
+}
+
+.text-box-1 h3 {
+    color: rgb(122, 94, 94);
+    font-size: 1.5em;
+}
+
+.header-1 {
+    color: rgb(122, 94, 94);
+    margin: 10px;
+    font-size: 3vw;
+    font-weight: 1200;
+}
+
+.header-container {
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(230, 225, 225);
+}
+
+.footer-container {
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+}
+
+.footer-1 {
+    color: rgb(122, 94, 94);
+    margin: 10px;
+    font-size: 3vw;
+    font-weight: 1200;
+}
+
+@media screen and (max-width: 700px) {
+    .parallax-1 {
+        background-image: url('./images/img5.jpg');
+    }
+
+    .parallax-2 {
+        background-image: url('./images/img6.jpg');
+    }
+
+    .parallax-3 {
+        background-image: url('./images/img7.jpg');
+    }
+
+    .parallax-4 {
+        background-image: url('./images/img8.jpg');
+    }
+
+    .header-container {
+        width: 50%;
+        height: 8%;
+    }
+
+    .footer-container {
+        width: 50%;
+        height: 8%;
+    }
+
+    .header-1 {
+        font-size: 5vw;
+    }
+
+    .footer-1 {
+        font-size: 5vw;
+    }
+}
+
